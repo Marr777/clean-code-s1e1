@@ -1,50 +1,63 @@
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .page-header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .page-header__img {
   width: 100%;
 }
+
 .page-header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .page-header {
     text-align: center;
   }
+
 }
+
 .app {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .app-header__inner {
   display: flex;
 }
+
 .app-list {
   margin:0;
   padding: 0px;
 }
+
 .app-list__item, .app__title {
   list-style:none;
 }
+
 .app__input, .button{
   outline:none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -54,10 +67,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
+
 .app__title,
 .app-header__label {
   color: #333;
@@ -68,6 +84,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .app-input_task {
   margin: 0;
   font-size: 18px;
@@ -80,15 +97,18 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .app-input_task:focus {
   color: #333;
 }
 
 /* New Task */
+
 .app-header__label {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -103,6 +123,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .app-list__item > * {
   vertical-align: middle;
 }
@@ -117,19 +138,23 @@
   font-size: 18px;
   width: 226px;
 }
+
 .app-list__item > .app-input_task {
   width: 226px
 }
+
 .button__image_delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button__image_delete:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 #completed-tasks .app__task-label {
   text-decoration: line-through
   color: #888;
