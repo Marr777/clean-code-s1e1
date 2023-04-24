@@ -135,7 +135,8 @@ fieldset {
   align-items: center;
 }
 
-.app-list__item > * {
+.app-list__item >
+* {
   vertical-align: middle;
 }
 
@@ -150,7 +151,8 @@ fieldset {
   width: 226px;
 }
 
-.app-list__item > .app-input_task {
+.app-list__item >
+.app-input_task {
   width: 226px;
 }
 
@@ -166,21 +168,25 @@ fieldset {
 
 /* Completed */
 
-#completed-tasks .app__task-label {
+#completed-tasks
+.app__task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.app-list__item .app-input_task {
+.app-list__item
+.app-input_task {
   display: none;
 }
 
-.app-list__item_edit .app-input_task {
+.app-list__item_edit
+.app-input_task {
   display: inline-block;
   width: 224px;
 }
 
-.app-list__item_edit .app__task-label {
+.app-list__item_edit
+.app__task-label {
   display: none;
 }
