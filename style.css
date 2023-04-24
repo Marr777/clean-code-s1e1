@@ -46,16 +46,16 @@
 }
 
 .app-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .app-list__item, .app__title {
-  list-style:none;
+  list-style: none;
 }
 
 .app__input, .button{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -162,14 +162,14 @@
 
 /* Edit Task */
 .app-list__item .app-input_task {
-  display:none
+  display: none
 }
 
 .app-list__item_edit .app-input_task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .app-list__item_edit .app__task-label {
-  display:none;
+  display: none;
 }
