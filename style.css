@@ -50,11 +50,13 @@
   padding: 0px;
 }
 
-.app-list__item, .app__title {
+.app-list__item,
+.app__title {
   list-style: none;
 }
 
-.app__input, .button{
+.app__input,
+.button{
   outline: none;
 }
 
