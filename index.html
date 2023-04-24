@@ -8,47 +8,47 @@
 
 <body class="page">
   <div class="page__header page-header">
-    <img src="./eisenhower-matrix.jpg"> <a class="page-header__link"
+    <img class="page-header__img" src="./eisenhower-matrix.jpg"> <a class="page-header__link"
         href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
   <div class="app">
     <p class="app__header app-header">
-      <label for="new-task">Add Item</label>
+      <label class="app-header__label" for="new-task">Add Item</label>
       <div class="app-header__inner">
-        <input id="new-task" class="app__task task" type="text">
-        <button>Add</button>
+        <input id="new-task" class="app__input app-input_task task" type="text">
+        <button class="app__button button">Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
+    <h3 class="app__title">Todo</h3>
     <ul class="app__list app-list" id="incomplete-tasks">
       <li class="app-list__item">
-        <input type="checkbox">
-        <label class="app__task task">Pay Bills</label>
-        <input type="text" class="app__task task">
+        <input class="app__input app__input_checkbox" type="checkbox">
+        <label class="app__task-label task">Pay Bills</label>
+        <input type="text" class="app__input app-input_task task">
         <button class="app__button button button_edit">Edit</button>
         <button class="app__button button button_delete">
-          <img src="./remove.svg">
+          <img class="button__image button__image_delete" src="./remove.svg">
         </button>
       </li>
-      <li class="app-list__item edit-mode">
-        <input type="checkbox">
-        <label class="app__task task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="app__task task">
+      <li class="app-list__item app-list__item_edit">
+        <input class="app__input app__input_checkbox" type="checkbox">
+        <label class="app__task app__task-label task">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="app__input app-input_task task">
         <button class="app__button button button_edit">Save</button>
         <button class="app__button button button_delete">
-          <img src="./remove.svg">
+          <img class="button__image button__image_delete" src="./remove.svg">
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
-    <ul id="completed-tasks">
-      <li>
-        <input type="checkbox" checked>
-        <label class="app__task task">See the Doctor</label>
-        <input type="text" class="app__task task">
+    <h3 class="app__title">Completed</h3>
+    <ul class="app__list app-list" id="completed-tasks">
+      <li class="app-list__item">
+        <input class="app__input app__input_checkbox" type="checkbox" checked>
+        <label class="app__task app__task-label task">See the Doctor</label>
+        <input type="text" class="app__input app-input_task task">
         <button class="app__button button button_edit">Edit</button>
         <button class="app__button button button_delete">
-          <img src="./remove.svg">
+          <img class="button__image button__image_delete" src="./remove.svg">
         </button>
       </li>
     </ul>
